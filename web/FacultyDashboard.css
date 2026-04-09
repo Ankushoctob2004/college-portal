@@ -1,0 +1,69 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #eef2f7;
+  color: #2c3e50;
+}
+
+/* NAVBAR FIXED */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: -webkit-fill-available;
+    height: 97px;
+    
+    background: #2c3e50;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 30px;
+    z-index: 1000;
+    
+}
+
+
+/* NAV LINKS */
+.nav-links a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* BODY GAP (IMPORTANT) */
+body{
+    margin: 0;
+    padding-top: 70px;  /* navbar ke niche content aayega */
+}
+.welcome {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  width: 220px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #dfe6e9;
+}
